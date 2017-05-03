@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ghy.notificationmessage.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show"/>
+
+    <Button
+        android:id="@+id/btn_hide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hide"/>
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Info"/>
+    <Button
+        android:id="@+id/btn_warn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warn"/>
+    <Button
+        android:id="@+id/btn_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success"/>
+    <Button
+        android:id="@+id/btn_fail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fail"/>
+    <Button
+        android:id="@+id/btn_danger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danger"/>
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom"/>
+
+</LinearLayout>
